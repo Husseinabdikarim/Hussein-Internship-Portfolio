@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Hobbies</title>
+
+  <style>
+
+    h1{
+      background-color:blanchedalmond;
+    }
+    /* ul{
+      background-color: cadetblue;
+    } */
+
+      /* Button Styles */
+      button {
+            background-color: rgb(209, 163, 95);
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+    button:hover {
+              background-color: #97a3b0;
+          }
+  </style>
+</head>
+
+<body>
+  <h1>My Hobbies</h1>
+  <ul>
+    <li>Swimming</li>
+    <li>Go-karting</li>
+    <li>Football</li>
+    <li>Gymming</li>
+  </ul>
+  <p><strong>Explore the Highlights of 2020</strong></p>
+  <button onclick="navigateToExternalLink('../public/movies.html')">Movies</button>
+  
+  <hr />
+  <footer>
+    <p>© Hussein Abdikarim Hussein. All rights reserved.</p>
+  </footer>
+  <hr/>
+  
+</body>
+
+<script>
+  function navigateToExternalLink(url) {
+    window.location.href = url;
+  }
+</script>
+
+</html>

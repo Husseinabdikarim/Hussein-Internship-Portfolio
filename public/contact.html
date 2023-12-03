@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#CCE5FF;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Contact</title>
+  <style>
+     /* Button Styles */
+     button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 5px;
+        }
+    button:hover {
+              background-color: #0056b3;
+          }
+  </style>
+</head>
+
+<body>
+  <h1>Contact Me</h1>
+
+  <p>Email:<a href="mailto:husseinabdikarim18@gmail.com"> husseinabdikarim18@gmail.com</a></p>
+  <button onclick="navigateToExternalLink('https://github.com/Husseinabdikarim')">GitHub</button>
+  <button onclick="navigateToExternalLink('https://www.linkedin.com/in/hussein-abdikarim/')">LinkedIn</button>
+  <h2>Address:</h2>
+  <p> Ankara, Turkey</p>
+  <hr/>
+  <footer>
+    <p>© Hussein Abdikarim Hussein. All rights reserved.</p>
+  </footer>
+</body>
+
+<hr/>
+<script>
+  function navigateToExternalLink(url) {
+      window.location.href = url;
+  }
+</script>
+
+</html>
